@@ -1,0 +1,99 @@
+
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+#cabecalho {
+    background: linear-gradient(90deg, #003366, #0056b3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#cabecalho .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#cabecalho .navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.text-colored {
+    color: #4799f1;
+}
+
+#cabecalho .nav-link.active,
+#fale-conosco button
+    {
+    background-color: #4799f1;    
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#cabecalho .nav-link:hover {
+    color: #837943;
+    transform: scale(1.1);
+}
+
+
+/* Carrossel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section-title span {
+    color: #837943;
+}
+
+#sobre-a-dji {
+    background-color: #ffeae6;
+}
+
+/* Botões do Carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social-links li a {
+    
+}
+
+#fale-conosco button {
+
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #cabecalho .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
